@@ -1,0 +1,81 @@
+/* Tudo que estiver abaixo é considerador Mobile First */
+#page-success {
+    background: var(--color-primary);
+}
+
+#page-success #container {
+    color: var(--color-text-in-primary);
+}
+
+.success-container img {
+    height: 10rem;
+}
+
+.success-container {
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+
+.success-container h2 {
+    margin-bottom: .8rem;
+    color: var(--color-title-in-primary);
+}
+
+.success-container p {
+    font-size: 2.2rem;
+    margin-top: 0.3rem;
+}
+
+.success-image {
+    width: 100%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 3.2rem 0;
+}
+
+.button-container a {
+    width: 30rem;
+    height: 8.7rem;
+
+    border-radius: .8rem;
+
+    font: 700 2.4rem Archivo;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    text-decoration: none;
+
+    transition: background 0.2s;
+
+    background: var(--color-secondary);
+    color: var(--color-button-text);
+}
+
+.button-container a:hover {
+    background: var(--color-secondary-dark);
+}
+
+@media (max-width: 1100px) {
+    :root {
+        font-size: 40%; /* Modificar as medidas rem */
+    }
+
+    .hero-image {
+        height: 45rem;
+    }    
+}
+
+@media (min-width: 1100px) {
+    #page-success #container {
+        max-width: 1100px;
+        display: grid;
+        grid-template-columns: ;
+    }
+}
